@@ -63,6 +63,25 @@ var ABI = [
 	{
 		"inputs": [
 			{
+				"internalType": "address",
+				"name": "checkAdress",
+				"type": "address"
+			}
+		],
+		"name": "claimableMints",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
 				"internalType": "uint256",
 				"name": "quantity",
 				"type": "uint256"
@@ -484,6 +503,19 @@ var ABI = [
 	{
 		"inputs": [],
 		"name": "baseURI",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "claimAdres",
 		"outputs": [
 			{
 				"internalType": "string",
